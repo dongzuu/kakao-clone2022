@@ -4,30 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Welcome to Kokoa Talk</title>
   </head>
   <body>
-    <div id="startusbar">
-      <div class="statusbar__column">
+    <div id="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="statusbar__column">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="statusbar__column">
+      <div class="status-bar__column">
         <!--lock icon-->
         <span>111%</span>
-        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
 
-    <div>
-      <h2>Welcome to KokoaTalk</h2>
-      <p>if you have a Kokoa Account, log in with your email or phone number</p>
-    </div>
+    <header class="welcome-headers">
+      <h2 class="welcome-header__title">Welcome to KokoaTalk</h2>
+      <p class="welcome-header__text">if you have a Kokoa Account, log in with your email or phone number</p>
+    </header>
 
+    <form>
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a
+        href="#"
+        >Find Kokoa Account or Password</a
+      >
+    </form id="login-form">
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
