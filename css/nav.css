@@ -1,0 +1,33 @@
+.nav {
+  color: goldenrod;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: #f9f9fa;
+  box-sizing: border-box;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+.nav__btn {
+  position: relative;
+}
+.not-read1 {
+  background-color: #ff6229;
+  color: white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+.nav__link {
+  color: #2f363e;
+}
