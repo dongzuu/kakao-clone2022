@@ -1,6 +1,8 @@
 .user-component {
   display: flex;
   margin-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
 }
 .user-component__column {
   display: flex;

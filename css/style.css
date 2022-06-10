@@ -3,7 +3,10 @@
 @import "nav.css";
 @import "friends.css";
 @import "screens/friendsnames.css";
+
 @import "component/user-component.css";
+@import "component/chat-time.css";
+
 @import "channel.css";
 @import "variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;500;600&family=Permanent+Marker&display=swap");
