@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 25px;
   align-items: center;
+  position: relative;
 }
 .friends__header h1 {
   font-size: 35px;

@@ -41,3 +41,13 @@
 .chat-time {
   color: rgba(0, 0, 0, 0.6);
 }
+
+.component-dotmark {
+  display: flex;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #ff6229;
+  position: absolute;
+  right: 10px;
+}
