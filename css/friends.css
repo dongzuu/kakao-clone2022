@@ -1,14 +1,31 @@
 .friends__header {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  padding-top: 40px;
   align-items: center;
-  position: relative;
+}
+.friends__headericon {
+  display: flex;
+  align-items: center;
 }
 .friends__header h1 {
   font-size: 35px;
   font-weight: 900;
+  margin-left: var(--horizontal-space);
 }
 .friends__header a {
-  margin-left: 20px;
+  margin-right: var(--horizontal-space);
+}
+.friends__header-gear {
+  padding-bottom: 9px;
+  position: relative;
+}
+.friends__header-dot-mark {
+  display: flex;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -5px;
 }

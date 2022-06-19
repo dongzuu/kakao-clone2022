@@ -1,19 +1,24 @@
-.user-component {
+.main-screen {
   display: flex;
   margin-top: 10px;
   padding-bottom: 10px;
   justify-content: space-between;
+  margin-left: var(--horizontal-space);
+  margin-right: var(--horizontal-space);
 }
+
 .user-component__column {
   display: flex;
   align-items: center;
+}
+.user-component__column-time {
   margin-right: var(--horizontal-space);
 }
+
 .user-component__avartar {
   width: 70px;
   height: 70px;
   border-radius: 30px;
-  margin-left: var(--horizontal-space);
 }
 .user-component__text {
   margin-left: 15px;
@@ -44,10 +49,11 @@
 
 .component-dotmark {
   display: flex;
-  width: 2px;
-  height: 2px;
-  border-radius: 1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
   background-color: #ff6229;
   position: absolute;
-  right: 10px;
+  right: 20px;
+  top: 20px;
 }

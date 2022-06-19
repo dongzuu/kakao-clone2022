@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Welcome to Kokoa Talk</title>
   </head>
@@ -28,12 +28,36 @@
       <h1>Find</h1>
       <div class="friends__headericon">
         <a><i class="fas fa-search fa-2x"></i></a>
-        <a
-          ><i class="fa fa-gear fa-2x"></i>
-          <span class="component-dotmark"></span
+        <a class="friends__header-gear">
+          <span class="friends__header-dot-mark"></span
+          ><i class="fa fa-gear fa-2x"></i
         ></a>
       </div>
     </div>
+
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended friends">
+        <h1>Recommended Friends</h1>
+      </div>
+    </main>
 
     <nav class="nav">
       <ol class="nav__list">
@@ -45,7 +69,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="not-read1">1</span>
-            <i class="fa fa-comment fa-2x"></i
+            <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

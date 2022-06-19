@@ -2,6 +2,7 @@
 @import "index.css";
 @import "nav.css";
 @import "friends.css";
+@import "find.css";
 @import "screens/friendsnames.css";
 
 @import "component/user-component.css";
@@ -12,4 +13,11 @@
 
 body {
   color: #2f363e;
+}
+.main-screen {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin-left: var(--horizontal-space);
+  margin-right: var(--horizontal-space);
 }
