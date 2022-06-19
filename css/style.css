@@ -15,9 +15,7 @@ body {
   color: #2f363e;
 }
 .main-screen {
-  display: flex;
   margin-top: 25px;
-  justify-content: space-between;
   margin-left: var(--horizontal-space);
-  margin-right: var(--horizontal-space);
+  display: block;
 }
