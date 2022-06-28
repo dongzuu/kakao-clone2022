@@ -1,8 +1,9 @@
 .channel {
   border-top: var(--main-border);
+  margin-top: 13px;
 }
 .channel__header {
-  margin: var(--horizontal-space);
+  margin-top: 13px;
   color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
@@ -31,5 +32,4 @@
   color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
   font-size: var(--channel-iconsize);
-  margin-right: var(--horizontal-space);
 }

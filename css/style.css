@@ -17,5 +17,6 @@ body {
 .main-screen {
   margin-top: 25px;
   margin-left: var(--horizontal-space);
-  display: block;
+  margin-right: var(--horizontal-space);
+  display: blocks;
 }

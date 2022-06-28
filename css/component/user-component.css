@@ -1,16 +1,11 @@
-.main-screen {
+.user-component {
   display: flex;
-  margin-top: 10px;
-  padding-bottom: 10px;
   justify-content: space-between;
-  margin-left: var(--horizontal-space);
-  margin-right: var(--horizontal-space);
 }
 
 .user-component__column {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .user-component__column-time {
   margin-right: var(--horizontal-space);
@@ -22,7 +17,7 @@
   border-radius: 30px;
 }
 .user-component__text {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .user-component__title {
   font-size: 30px;
