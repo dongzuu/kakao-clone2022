@@ -1,0 +1,46 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.user-component__subtitle i {
+  font-size: 3px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  border: 1px solid red;
+  text-align: center;
+  color: red;
+  opacity: 0.8;
+}
+.suggestions {
+  margin-top: 35px;
+  border-top: var(--main-border);
+  padding-top: 35px;
+}
+.suggestions__header {
+  font-weight: 400;
+}
+.suggestions__icons {
+  display: flex;
+  margin-top: 30px;
+}
+.suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.suggestions__icon span {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}

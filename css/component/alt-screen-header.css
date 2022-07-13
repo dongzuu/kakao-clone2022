@@ -1,0 +1,11 @@
+.alt-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alt-header__column i {
+}
+.alt-header__column span {
+  font-size: 25px;
+  font-weight: 600;
+}

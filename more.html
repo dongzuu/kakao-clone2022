@@ -27,9 +27,7 @@
     <nav class="nav">
       <ol class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
-          ></a>
+          <a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
@@ -43,7 +41,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
+          <a class="nav__link" href="#"
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
@@ -51,20 +49,15 @@
     </nav>
 
     <div class="friends__header">
-      <h1>Friends</h1>
+      <h1>More</h1>
       <div class="friends__headericon">
         <a><i class="fas fa-search fa-2x"></i></a>
         <a><i class="fas fa-music fa-2x"></i></a>
-        <a><i class="fa fa-gear fa-2x"></i></a>
+        <a href="settings.html"><i class="fa fa-gear fa-2x"></i></a>
       </div>
     </div>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fa fa-angle-right fa-xs"></i>
-    </a>
-
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -73,25 +66,47 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Huan</h4>
-            <!--<h6 class="user-component__subtitle">this subtitle whatever</h6>-->
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219 <i class="fas fa-exclamation"></i>
+            </h6>
           </div>
         </div>
-      </div>
-      <div class="channel">
-        <div class="channel__header">
-          Channel
-          <i class="fa fa-angle-up fa-lg"></i>
+        <div class="user-component__column">
+          <i class="fas fa-receipt fa-2x"></i>
         </div>
-        <div class="channel__column">
-          <img
-            class="user-component__avartar user-component__avartar--sm"
-            src="screenshots/mu.jpg"
-          />
-          <div class="channel__text">
-            <h1>Channel</h1>
-            <span class="channel__number"
-              >2 <i class="fa fa-angle-right fa-lg"></i
-            ></span>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar-check"></i>
+          <span>Calender</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="suggestions">
+        <h4 class="suggestions__header">Suggestions</h4>
+        <div class="suggestions__icons">
+          <div class="suggestions__icon">
+            <div class="suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span>Kakao Story</span>
+          </div>
+          <div class="suggestions__icon">
+            <div class="suggestions__icon-image">
+              <i class="fas fa-users"></i>
+            </div>
+            <span>Kakao friends</span>
           </div>
         </div>
       </div>

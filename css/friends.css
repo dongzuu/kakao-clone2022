@@ -8,6 +8,7 @@
 .friends__headericon {
   display: flex;
   align-items: center;
+  font-size: small;
 }
 .friends__header h1 {
   font-size: 35px;
