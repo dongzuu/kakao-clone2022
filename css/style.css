@@ -7,6 +7,7 @@
 /*screens*/
 @import "screens/friendsnames.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 /*component*/
 @import "component/user-component.css";
 @import "component/icon-row.css";
@@ -19,9 +20,7 @@
 body {
   color: #2f363e;
 }
+
 .main-screen {
-  margin-top: 25px;
-  margin-left: var(--horizontal-space);
-  margin-right: var(--horizontal-space);
-  display: blocks;
+  padding: 0px var(--horizontal-space);
 }

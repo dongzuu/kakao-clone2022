@@ -17,6 +17,7 @@
 }
 .friends__header a {
   margin-right: var(--horizontal-space);
+  color: #060607;
 }
 .friends__header-gear {
   padding-bottom: 9px;

@@ -1,7 +1,7 @@
 body {
   font-family: "Hind", sans-serif;
 }
-#status-bar {
+.status-bar {
   display: flex;
   justify-content: center;
   margin-top: 5px;
