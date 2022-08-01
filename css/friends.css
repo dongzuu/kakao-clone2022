@@ -32,3 +32,35 @@
   position: absolute;
   right: -5px;
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 132px;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes rotationGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(90deg);
+  }
+}
+.friends__headericon .fa-gear:hover {
+  animation: rotationGear 1s ease-in-out infinite;
+}
