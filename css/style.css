@@ -8,6 +8,7 @@
 @import "screens/friendsnames.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/no-mobile.css";
 /*component*/
 @import "component/user-component.css";
 @import "component/icon-row.css";
@@ -23,4 +24,7 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+.main-screen a {
+  text-decoration: none;
 }
